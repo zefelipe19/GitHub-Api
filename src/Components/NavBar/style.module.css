@@ -1,0 +1,15 @@
+.nav {
+  padding: 2rem;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  list-style-type: none;
+}
+
+.nav a:hover {
+  color: #6368ff;
+  font-size: larger;
+  font-weight: bolder;
+}
