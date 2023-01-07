@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./style.module.css";
 
+import GitHubIcon from "../../assets/GitHubIcon.svg"
+
 export default function NavBar() {
   return (
     <div>
@@ -13,7 +15,7 @@ export default function NavBar() {
           <Link to="contact/">Contact</Link>
         </li>
         <li>
-            <a href="https://github.com/zefelipe19" target="_blank">GitHub</a>
+            <a href="https://github.com/zefelipe19" target="_blank"><img src={GitHubIcon} alt="GitHubIcon" /></a>
         </li>
       </ul>
     </div>

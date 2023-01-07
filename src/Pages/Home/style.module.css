@@ -17,15 +17,24 @@
     padding: 1rem;
     width: 60%;
 
+    min-width: 300px;
+
     background-color: #4249F9;
     border-radius: 8px;
 
     box-shadow: 3px 5px 4px #00000040;
 }
 
+.search div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .search input {
     width: 80%;
     height: 50px;
+
+    min-width: min-content;
 
     padding: 15px;
     font-size: 18pt;
@@ -41,6 +50,8 @@
 .search button {
     height: 50px;
     width: 20%;
+
+    min-width: min-content;
 
     padding: 15px;
 
