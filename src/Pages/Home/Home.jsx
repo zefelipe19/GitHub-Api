@@ -17,7 +17,6 @@ export default function Home() {
         await axios.get(searchUser)
         .then(response => {
             setUser(response.data)
-            console.log(user)
         })
         .catch(error => console.log(error))
     }
@@ -37,7 +36,7 @@ export default function Home() {
                 user&& (
                     <Card 
                     img={user.avatar_url}
-                    name={user.name}
+                    username={user.login}
                     bio={user.bio}/>
                 )
             }

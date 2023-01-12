@@ -11,3 +11,7 @@
 .contact {
     margin: 15px;
 }
+
+.contact a:hover{
+    color: #6368ff;
+}
